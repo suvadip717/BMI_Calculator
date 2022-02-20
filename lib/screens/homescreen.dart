@@ -100,6 +100,8 @@ class _HomePageState extends State<HomePage> {
                   }
                   if (_bmiResult < 30 && 25 > _bmiResult) {
                     _textResult = "You are Overweight";
+                  } else {
+                    _textResult = "You should Obese";
                   }
                 });
               },
