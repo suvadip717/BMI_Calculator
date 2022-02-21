@@ -38,6 +38,7 @@ class _HomePageState extends State<HomePage> {
                   width: 150,
                   child: TextField(
                     controller: _hightController,
+                     textAlign: TextAlign.center,
                     keyboardType: TextInputType.number,
                     style: TextStyle(
                       color: accentColor,
@@ -59,6 +60,7 @@ class _HomePageState extends State<HomePage> {
                   width: 150,
                   child: TextField(
                     controller: _weightController,
+                     textAlign: TextAlign.center,
                     keyboardType: TextInputType.number,
                     style: TextStyle(
                       color: accentColor,
